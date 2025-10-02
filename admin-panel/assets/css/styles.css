@@ -1,0 +1,17 @@
+.navbar-brand {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 0.75rem;
+}
+
+.red-feedback {
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 0.875em;
+  color: red;
+}
+
+footer {
+  width: 100%;
+  background-color: red;
+}
