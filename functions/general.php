@@ -117,9 +117,9 @@ function imageUpload($file, $upload_dir)
 
 function validateImageUpload($file)
 {
-    if ($file['error'] !== 0) return "Error in uploading the image";
+    if ($file['error'] !== 0) return "Error in uploading the image"; //is there any error
 
-    $check = getimagesize($file["tmp_name"]);
+    $check = getimagesize($file["tmp_name"]); // is the file actually an image
     if ($check == false) return "File is not an image.";
 
     $target_file = basename($file["name"]);
